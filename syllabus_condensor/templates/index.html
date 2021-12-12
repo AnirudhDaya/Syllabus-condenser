@@ -1,0 +1,52 @@
+<!-- {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cloud native hackathon</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+<center>
+    <div class="container">
+        <div class="main">
+            <div class="blur">
+            <div class="submit">Upload Your File</div>
+            <div class="action">
+            <form action="">
+                <input type="file" id="file">
+                <input type="file" id="file">
+                <a href="">
+                    <input type="button" value="Download">
+                </a>
+            </form>
+            </div>
+            </div>
+       </div>
+    </div>
+</center>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method ='post' enctype ="multipart/form-data">
+        {% csrf_token %}
+        {{form1}}
+        <h1></h1>
+        {{form2}}
+        <input type="submit" value = "Submit">
+    </form>
+</body>
+</html>

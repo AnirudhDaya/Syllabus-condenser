@@ -1,0 +1,90 @@
+body{
+    background-image: url(pics/Afternoon.jpg);
+    background-position: center;
+    background-repeat:no-repeat ;
+    align-items: center;
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    object-fit: cover;
+    
+}
+.main{
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    width:460px;
+   
+    padding:40px;
+    /* position: absolute;
+    width: 1909px;
+    height: 1092px; */
+
+     background: linear-gradient(107.33deg, rgba(0, 0, 0, 0) 0.61%, rgba(0, 0, 0, 0.25) 99.51%);
+     backdrop-filter: blur(60px);
+     border-radius:12px;
+     padding-top:80px;
+
+
+}
+/* .container{
+    min-width:45%;
+    min-height: 45%;
+    padding:8px;
+   box-shadow: 12px 12px 20px #cbced1,
+    -12px -12px 20px #ffffff; */
+    
+/* } */
+/* .blur{
+    
+    position: relative;
+    width: 1909px;
+    height: 1092px;
+    padding: 4rem;
+    border-radius: 20px;
+
+    background: linear-gradient(107.33deg, rgba(0, 0, 0, 0) 0.61%, rgba(0, 0, 0, 0.25) 99.51%); 
+    backdrop-filter: blur(60px);
+} */
+#file::-webkit-file-upload-button{
+    visibility: hidden;
+
+
+}
+#file ,input[type=button]{
+    width: 90%;
+    height: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:17px;
+    
+    letter-spacing:2px;
+    border-radius:5px;
+    background-color: #fff;
+    transition: .5ms all;
+}
+#file{
+    width:84%;
+    height: 55px;
+    padding-top: 23px;
+    padding-left:20px;
+
+}
+#file:hover,input[type=button]:hover{
+    cursor: pointer;
+    background: linear-gradient(107.33deg, rgba(0, 0, 0, 0) 0.61%, rgba(0, 0, 0, 0.25) 99.51%);
+    backdrop-filter: blur(60px);
+
+}
+.submit{
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:white;
+    top:-13px;
+    right:120px;
+    
+}
