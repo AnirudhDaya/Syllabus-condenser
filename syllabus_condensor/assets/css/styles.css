@@ -120,13 +120,3 @@ section .details span{
 .uploaded-area i.fa-check{
   font-size: 16px;
 }
-.submit{
-  position: relative;
-  top: 400px;
-  min-height: 40%;
-  min-width: 40%;
-  padding: 0.2rem;
-  border-radius: 10px;
-  color: #000000;
-  background-color: rgba(255, 255, 255,75%);
-}

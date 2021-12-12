@@ -1,5 +1,6 @@
+{% load static %}
 body{
-    background-image: url(pics/Afternoon.jpg);
+    background-image: {stat};
     background-position: center;
     background-repeat:no-repeat ;
     align-items: center;
